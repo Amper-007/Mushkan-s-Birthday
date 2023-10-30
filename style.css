@@ -1,0 +1,46 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom, #ffd1dc, #ff69b4);
+  background-attachment: fixed;
+  text-align: center;
+}
+
+header {
+  background: rgba(255, 105, 180, 0.8);
+  color: #fff;
+  padding: 20px;
+  font-size: 24px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.birthday-message {
+  flex: 1;
+  padding: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.birthday-image {
+  max-width: 100%;
+  height: auto;
+  display: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
